@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hassan</title>
-    <link rel="shortcut icon" href="alien-bold.svg" type="image/x-icon">
+    <!-- icon link -->
+    <link rel="shortcut icon" href="candle.png" type="image/x-icon">
+    <!-- Main css link -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
         <h1>Basic HTML Form</h1>
+        <!-- first section -->
         <fieldset>
             <legend>Name</legend>
             <label for="Fname">First Name</label> <br>
@@ -18,47 +21,55 @@
             <label for="Lname">Last Name</label> <br>
             <input type="text" name="" id="Lname">
         </fieldset>
+        <!-- End first section -->
         <fieldset>
             <legend>Other Questions</legend>
+            <!-- Choose a drink section -->
             <label for="drink">Choose a drink:</label><br>
-
             <input type="radio" id="coffee" name="drink" value="Coffee">
             <label for="coffee">Coffee</label><br>
 
             <input type="radio" id="tea" name="drink" value="Tea">
             <label for="tea">Tea</label><br>
-
+            
             <input type="radio" id="hotC" name="drink" value="hot chocolate">
             <label for="hotC">hot chocolate</label><br><br>
+            <!-- End Choose a drink section  -->
 
+            <!-- Ice creem section  -->
             <label for="ice">What ice cream do you like?</label> <br>
             <input type="checkbox" id="Choco" name="ice" value="">
             <label for="Choco">Chocolate</label><br>
-
+            
             <input type="checkbox" id="ChocoPud" name="ice" value="">
             <label for="ChocoPud">Chocolate Pudding</label><br>
             <input type="checkbox" id="ChocoBut" name="ice" value="">
             <label for="ChocoBut">Chocolate peanut Butter</label><br>
-
+            
             <input type="checkbox" id="Vanilla" name="ice" value="">
             <label for="Vanilla">Vanilla</label><br>
-
+            
             <input type="checkbox" id="Strawberry" name="ice" value="">
             <label for="Strawberry">Strawberry</label><br><br>
             <label for="">Select a school:</label><br>
+            <!--End Ice creem section  -->
+            <!-- Drop doun menu section -->
             <Select>
                 <option value="">Harverd</option>
             </Select>
             <datalist >
                 <option value="">Harverd</option>
             </datalist>
+            <!--End Drop doun menu section -->
             <br><br>
+            <!-- Comments section -->
             <label for="">Please provide comments</label> <br>
             <textarea name="" id="" cols="30" rows="10"></textarea>
+            <!--End Comments section -->
         </fieldset>
         <br>
-        <input type="submit" value="submit">
         
+        <input type="submit" value="submit"> 
     </form>
 </body>
 </html>
